@@ -1,0 +1,8 @@
+<h1>All Appearances </h1>
+
+<% Appearance.all.each do |app| %>
+	<%=app.guest_id%>
+	<%=app.episode_id %>
+	<%=app.rating%>
+	<%=app.user_id%>
+<% end %>
